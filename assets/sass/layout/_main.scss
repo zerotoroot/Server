@@ -1,0 +1,63 @@
+// Main
+#main {
+  // Hosting
+  #hosting {
+    h2 {
+      font-size: 3rem;
+    }
+    .card {
+      i {
+        transition: rotate 0.5s;
+      }
+      &:hover {
+        i {
+          rotate: 360deg;
+        }
+      }
+    }
+  }
+  //
+  #register {
+    background-image: url(../images/hero_bg_3.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 30rem 0;
+    height: 2px;
+    h2 {
+      font-size: 5rem;
+    }
+    &::after {
+      content: "";
+      background-color: rgb(77, 117, 141);
+      top: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0.3;
+    }
+  }
+  // Choose
+  #choose {
+    h2 {
+      font-size: 5rem;
+    }
+    .card {
+      cursor: pointer;
+      i {
+        transition: rotate 0.7s;
+      }
+      &:hover {
+        i {
+          rotate: 360deg;
+        }
+      }
+    }
+  }
+  //Testimonial
+  #testimonial {
+    h2 {
+      font-size: 5rem;
+    }
+  }
+}

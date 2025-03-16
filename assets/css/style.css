@@ -1,0 +1,65 @@
+html {
+  font-size: 10px;
+}
+
+#header {
+  background-image: url(../images/hero_bg_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30rem 0;
+}
+#header h1 {
+  font-size: 5rem;
+}
+
+#main #hosting h2 {
+  font-size: 3rem;
+}
+#main #hosting .card i {
+  transition: rotate 0.5s;
+}
+#main #hosting .card:hover i {
+  rotate: 360deg;
+}
+#main #register {
+  background-image: url(../images/hero_bg_3.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 30rem 0;
+  height: 2px;
+}
+#main #register h2 {
+  font-size: 5rem;
+}
+#main #register::after {
+  content: "";
+  background-color: rgb(77, 117, 141);
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+#main #choose h2 {
+  font-size: 5rem;
+}
+#main #choose .card {
+  cursor: pointer;
+}
+#main #choose .card i {
+  transition: rotate 0.7s;
+}
+#main #choose .card:hover i {
+  rotate: 360deg;
+}
+#main #testimonial h2 {
+  font-size: 5rem;
+}
+
+#footer li {
+  transition: transform 0.7s ease-in-out;
+}
+#footer li:hover {
+  transform: translateX(2rem);
+}/*# sourceMappingURL=style.css.map */

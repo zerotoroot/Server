@@ -1,0 +1,9 @@
+// Footer
+#footer {
+  li {
+    transition: transform 0.7s ease-in-out;
+    &:hover {
+      transform: translateX(2rem);
+    }
+  }
+}
